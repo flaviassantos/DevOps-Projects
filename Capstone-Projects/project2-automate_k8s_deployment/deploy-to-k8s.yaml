@@ -1,0 +1,16 @@
+---
+- name: Deploy app in new namespace
+  hosts: localhost
+  tasks:
+    - name: Create a k8s namespace
+      k8s:
+        name: my-app
+        api_version: v1
+        kind: Namespace
+        state: present
+        kubeconfig: /Users/flaviassantos/github/devops-projects/m12_terraform/terraform/kubeconfig_myapp-eks-cluster
+    - name: Deploy nginx app
+      k8s:
+        src: /Users/flaviassantos/github/devops-projects/m12_terraform/terraform-learn-feature-deploy-to-ec2/nginx-config.yaml
+        state: present
+        namespace: my-app
