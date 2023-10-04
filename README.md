@@ -1,5 +1,7 @@
 # DevOps Bootcamp Capstone Projects
 
+![Diploma](CertifiedDevOpsPractitioner.png) 
+
 This project demonstrates my ability to apply DevOps principles and best practices to real-world scenarios. I have designed and built a DevOps pipeline that integrates these various tools and concepts, showcasing my proficiency in orchestrating a seamless and efficient development and deployment process.
 
 Through this project, I aim to illustrate my competence in creating and managing cloud-based infrastructure, containerizing applications, automating tasks, and ensuring the reliability and scalability of software systems. Each section of this project corresponds to a specific area of DevOps expertise that I have acquired during the bootcamp.
